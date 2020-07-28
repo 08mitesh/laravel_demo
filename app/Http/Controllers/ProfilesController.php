@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class ProfilesController extends Controller
 {
+    
     public function index($user)
     {
         $userData = User::findOrFail($user);
