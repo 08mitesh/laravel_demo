@@ -40,7 +40,7 @@
                         @enderror
                     </div>
                     <div class="row pt-3">
-                        <button class="btn btn-primary  "> save profile</button>
+                        <button class="btn btn-primary"> Create Post</button>
                     </div>
              
             </div>
