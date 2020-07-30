@@ -8,8 +8,9 @@
         </div>
         <div class="col-4">
             <div>
-            <h3>{{$post->user->username}}</h3>
+            <h3>{{$post->user->username}} <a href="#">Follow</a></h3>
                 <p>{{$post->caption}}</p>
+                <a href="#">Follow</a>
             </div>
         </div>
     </div>
