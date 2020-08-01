@@ -20,10 +20,14 @@ Route::get('/', function () {
 Auth::routes();
 
 
+
 ## Posts Routes
-Route::get('/p/{post}','PostsController@show');
+
 Route::get('/p/create','PostsController@create');
 Route::post('/p','PostsController@store');
+Route::get('/p/{post}','PostsController@show');
+## home 
+Route::get('/','PostsController@index');
 
 ## Profile Routes
 Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
